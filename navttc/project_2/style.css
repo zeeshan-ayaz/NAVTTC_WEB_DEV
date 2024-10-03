@@ -1,0 +1,139 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: #333;
+}
+
+/* Navigation Menu Styling */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* About Section Styling */
+#about {
+    padding: 20px;
+    text-align: center;
+}
+
+#about img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+
+/* Contact Form Styling */
+#contact {
+    padding: 20px;
+}
+
+#contact form {
+    max-width: 500px;
+    margin: auto;
+}
+
+#contact label {
+    display: block;
+    margin-top: 10px;
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+#contact button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color: #45a049;
+}
+
+/* Table Styling */
+#personal-details table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+#personal-details th,
+#personal-details td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+#personal-details th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Hobbies List Styling */
+#hobbies {
+    padding: 20px;
+    text-align: center;
+}
+
+#hobbies ul,
+#hobbies ol {
+    margin: 0 auto;
+    max-width: 400px;
+    text-align: left;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
